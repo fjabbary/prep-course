@@ -10,6 +10,6 @@ console.log(numbers[0])
 //logs the last item of the array: numbers[9]
 console.log(numbers[numbers.length - 1])
 
-let car = {
-  colour: "black"
-};
+let car = {};
+
+car.colour = "black";
