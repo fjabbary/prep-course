@@ -1,0 +1,63 @@
+body {
+  background: #eee;
+  font-size: 18px;
+}
+
+main {
+  width: 1200px;
+  margin: 100px auto;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#header { 
+  text-align: center;
+  padding: 10px;
+}
+
+#header h2 {
+  margin: 5px;
+  font-size: 22px;
+}
+
+.line {
+  background:	#800000;
+  height: 2px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+/* ====== content styles ========*/
+#content {
+  padding:30px;
+  position: relative;
+}
+
+ul {
+  margin: 0;
+}
+
+#content h3 {
+  text-decoration: underline;
+  text-transform: uppercase;
+  margin: 10px 0;
+  color:	#800000
+}
+
+#content h4 {
+  margin: 10px 0;
+}
+
+#content .date {
+  position: absolute;
+  right: 60px;
+}
+
+#content .institution, #content .degree {
+  margin: 10px;
+}
+
+p.skills {
+  margin: 0;
+}
